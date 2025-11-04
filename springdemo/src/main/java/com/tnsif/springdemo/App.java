@@ -7,7 +7,7 @@ public class App {
 	  ApplicationContext context=new ClassPathXmlApplicationContext("beans.xml");
 	  Airtel airtel=(Airtel)context.getBean("air");
 	  airtel.call();
-	  airtel.data();
+	  airtel.data();  
 	  
   }
 }
